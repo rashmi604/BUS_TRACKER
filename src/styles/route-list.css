@@ -1,0 +1,73 @@
+.route-list {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.route-list h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.routes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.route-item {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.route-header {
+  display: grid;
+  grid-template-columns: 60px 1fr 80px;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  background: #f9f9f9;
+}
+
+.route-header:hover {
+  background: #f0f0f0;
+}
+
+.route-number {
+  background: #0066cc;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.route-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.bus-count {
+  color: #666;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.route-details {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+  background: #fafafa;
+}
+
+.route-details p {
+  margin: 0.5rem 0;
+  color: #666;
+}
